@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+  color: white;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 210px;
+  max-width: 1200px;
+  margin: 0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: blanchedalmond;
+  padding: 16px 32px;
+  display: inline-block;
+}
+
+header a:hover {
+  transform: scale(1.5);
+  transition: all 150ms ease-in-out;
+  text-decoration: none;
+}
+
+section {
+  margin: 0 auto;
+  padding: 100px;
+  max-width: 100%;
+}
+.img-responsive {
+  max-width: 100%;
+}
+.img-responsive-main {
+  max-width: 70%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  line-height: 1.5;
+}
